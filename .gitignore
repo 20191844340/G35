@@ -4,3 +4,8 @@
 *.ncb
 *.opt
 *.plg
+*.ilk
+*.obj
+*.pch
+*.pdb
+*.idb
