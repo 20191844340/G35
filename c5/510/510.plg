@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 510 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zmy\AppData\Local\Temp\RSP4CCD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/510.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\zuoye\510\510.cpp"
+]
+Creating command line "cl.exe @C:\Users\zmy\AppData\Local\Temp\RSP4CCD.tmp" 
+Creating temporary file "C:\Users\zmy\AppData\Local\Temp\RSP4CCE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/510.pdb" /debug /machine:I386 /out:"Debug/510.exe" /pdbtype:sept 
+.\Debug\StdAfx.obj
+.\Debug\510.obj
+]
+Creating command line "link.exe @C:\Users\zmy\AppData\Local\Temp\RSP4CCE.tmp"
+<h3>Output Window</h3>
+Compiling...
+510.cpp
+C:\zuoye\510\510.cpp(12) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+510.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
